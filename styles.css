@@ -54,6 +54,11 @@ p {
   max-width: 60ch;
 }
 
+#kontakt {
+  margin-top: 0.9rem;
+  font-size: 0.95rem;
+}
+
 .cta {
   margin-top: 1.4rem;
   display: inline-block;
