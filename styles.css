@@ -77,8 +77,10 @@ p {
   background: linear-gradient(135deg, #a8b9ff, var(--accent));
   padding: 0.65rem 1.1rem;
   border-radius: 0.65rem;
+  transition: transform 0.15s ease, filter 0.15s ease;
 }
 
 .cta:hover {
   filter: brightness(1.05);
+  transform: translateY(-1px);
 }
