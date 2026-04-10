@@ -5,6 +5,9 @@
   --text: #f5f7ff;
   --muted: #b8c3f5;
   --accent: #6f8bff;
+  --gradient-start: #1c2f7a;
+  --border-color: #2a3d8d;
+  --cta-text: #0d1638;
 }
 
 * {
@@ -15,7 +18,7 @@ body {
   margin: 0;
   min-height: 100vh;
   font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-  background: radial-gradient(circle at 20% 10%, #1c2f7a, var(--bg) 35%);
+  background: radial-gradient(circle at 20% 10%, var(--gradient-start), var(--bg) 35%);
   color: var(--text);
   display: grid;
   place-items: center;
@@ -25,7 +28,7 @@ body {
 .hero {
   width: min(760px, 100%);
   background: rgba(17, 25, 56, 0.9);
-  border: 1px solid #2a3d8d;
+  border: 1px solid var(--border-color);
   border-radius: 1rem;
   padding: clamp(1.5rem, 5vw, 3rem);
   box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
@@ -70,7 +73,7 @@ p {
   display: inline-block;
   text-decoration: none;
   font-weight: 600;
-  color: #0d1638;
+  color: var(--cta-text);
   background: linear-gradient(135deg, #a8b9ff, var(--accent));
   padding: 0.65rem 1.1rem;
   border-radius: 0.65rem;
