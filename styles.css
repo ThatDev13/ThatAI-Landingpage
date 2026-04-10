@@ -24,7 +24,7 @@ body {
 
 .hero {
   width: min(760px, 100%);
-  background: color-mix(in srgb, var(--panel), transparent 10%);
+  background: rgba(17, 25, 56, 0.9);
   border: 1px solid #2a3d8d;
   border-radius: 1rem;
   padding: clamp(1.5rem, 5vw, 3rem);
